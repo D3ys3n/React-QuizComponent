@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import QuizQuestionButton from './QuizQuestionButton'
 
-class QuizQuestion extends Component {
+export default class QuizQuestion extends Component {
     render() {
 
         let button_text = this.props.quiz_question.answer_options[0]
@@ -28,4 +28,4 @@ class QuizQuestion extends Component {
     }
 }
 
-export default QuizQuestion
+// export default QuizQuestion

@@ -10,6 +10,7 @@ class Quiz extends Component {
     }    
 
     render() {
+        
         let quiz_question = quizData.quiz_questions[this.state.quiz_position - 1]
 
         return (
